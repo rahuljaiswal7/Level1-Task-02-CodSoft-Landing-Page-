@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(0, 0, 0);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+} 
+ 
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+/* navbar  */
+#nav{
+    height: 140px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    cursor: pointer;
+}
+/* navbar2 */
+#nav-part2{
+    display: flex;
+    width: 55%;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+/* menu in navbar h1  */
+#nav h1{
+    font-size: 20px;  
+}
+/* content style in navbar h5  */
+#nav h5{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+/* searchbar */
+#nav i{
+font-size: 20px;
+margin: 5px;
+}
+/* image in navbar */
+#nav img{
+    height:60px ;
+}
+/* Navbar line  */
+#line{
+    width: 80px;
+    height: 3px;
+    background-color:rgb(0, 0, 0);
+}
+/* Div content  */
+#content{
+    height: calc(100% - 140px);
+    width: 100%;
+    background-color: rgb(223, 223, 235);
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+/* Div left content  */
+#left{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 160px 80px;
+}
+/* Div center  content  */
+#center{
+    width: 32%;
+    height: 100%;
+    /* background-color: rgb(1, 255, 77); */
+    padding-top:20px;
+}
+/* Div right content  */
+#right{
+    width: 28%;
+    height: 100%;
+    /* background-color: rgb(13, 255, 0); */
+    padding:300px 10px;
+}
+#left h1{
+   font-size: 55px; 
+   line-height: 55px;
+   font-weight: 700;
+   margin-bottom: 40px;
+}
+/* span tag bold */
+#left h1 span{
+    color: green;
+    cursor: pointer;
+}
+/* p1  */
+#left p1{
+    font-size: 18px;
+    width: 70%;
+    margin-bottom: 40px;
+    line-height: 24px;
+}
+/* button  */
+#left button{
+    background-color: red;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#left button i{
+    margin-right:10px;
+}
+/* center backgroung color  */
+#center-bg{
+background-color: red;
+height: 95%;
+width: 100%;
+border-top-left-radius: 1000px;
+border-top-left-radius: 1000px;
+border-top-right-radius: 1000px;
+background-image: url(https://wallpapers.com/images/high/green-sprite-bubbles-f1z4biw7onkoodcb.webp);
+background-size: 220%;
+background-position:  80%;
+
+}
+/* img of sprite bottle */
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 54%;
+    transform: translate(-50%,0);
+}
+#right-elems{
+    width: 350px;
+}
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+#elem1 h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+#elem1 i{
+    font-size: 24;
+}
+#elem2 h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#elem2 p{
+    font-size: 12px;
+    width:80%;
+}
+#footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background:white;
+	color: rgb(7, 7, 7);
+	padding: 10px;
+}
